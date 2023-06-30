@@ -1,0 +1,228 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <title>Title</title>
+    <style>
+        .bg-cp{
+            background-color: #d3d6db;
+        }
+        .fs-7{
+            font-size: 15px;
+        }
+        .fs-8{
+            font-size: 13px;
+        }
+        .inp-width{
+            width:240px;
+        }
+        .inp-height{
+            height:52px;
+        }
+        .date-wid{
+            width:220px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTufoV3Iq2wur0bYKdb_fJzyZ2SG-ker93UjuR6tLFGw&usqp=CAU&ec=48665701" width="200" alt="">
+            <div class="d-none d-xl-flex align-items-center">
+                <p class="fw-bold text-primary m-0">Login</p>
+                <input type="text" placeholder="ENGLISH(UK)" class="form-control mx-2">
+                <div class="btn btn-outline-primary fw-bold">Login</div>
+            </div>
+        </div>
+    </div>
+   <div>
+    <div class="btn btn-dark fw-bold"Flights></div>
+    <div class="btn btn-primary fw-bold"Hotels></div>
+    <div class="btn btn-primary fw-bold"Car Hire></div>
+</div>
+</div>
+<div class="position-relative">
+    <img src="https://images.unsplash.com/photo-1548263594-a71ea65a8598?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80" alt="" class="img-fluid d-none d-xl-block">
+    <div class="d-none.d-xl-block.position-absolute start-50 top-50 translate-middle">
+        <p class="fw-bold text-white fs-1">Travel Enjoy Life.  .  .</p>
+        <div class="rounded p-3 bg-cp" style="margin-bottom:40%; width:1080px;">
+        <div class="d-flex align-items-center">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label fw-bold fs-7" for="flexRadioDefault1">
+                  Return
+                </label>
+              </div>
+              <div class="form-check mx-2">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label fw-bold fs-7" for="flexRadioDefault2">
+                  One way
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label fw-bold fs-7" for="flexRadioDefault2">
+                  Multi-City
+                </label>
+              </div>
+
+        </div>
+        <div class="d-flex align-itens-center py-2">
+            <div>
+                <label for="exampleDataList" class="form-label fw-bold fs-8 m-0">To</label>
+<input class="form-control inp-height inp-width" list="datalistOptions" id="exampleDataList" placeholder="Airport or City">
+<datalist id="datalistOptions">
+  <option value="San Francisco">
+  <option value="New York">
+  <option value="Seattle">
+  <option value="Los Angeles">
+  <option value="Chicago">
+</datalist>
+            </div>
+            <div>
+                <label for="exampleDataList1" class="form-label fw-bold fs-8 m-0">From</label>
+<input class="form-control inp-height inp-width" list="datalistOptions1" id="exampleDataList1" placeholder="Airport or City">
+<datalist id="datalistOptions1">
+  <option value="Somalia">
+  <option value="Banghdad">
+  <option value="London">
+  <option value="Los Angeles">
+  <option value="Chicago">
+</datalist>
+            </div>
+            <div>
+               <label for="" class="fw-bold fs-8">Depart</label>
+               <input type="date" name="" id="" class="form-control inp-height ">
+            </div>
+            <div>
+                <label for="" class="fw-bold fs-8">Return</label>
+                <input type="date" name="" id="" class="form-control inp-height ">
+             </div>
+             <div>
+                <label for="" class="fw-bold fs-8">Cabin Class & Travellers</label>
+                <select class="form-select inp-height inp-width" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+             </div>
+            
+        </div>
+        <div class="d-flex align-items-center justify-content between">
+            <div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label fw-bold fs-8" for="flexCheckDefault">
+                      Add nearby airports
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline ms-5">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label fw-bold fs-8" for="flexCheckChecked">
+                      Add nearby airports
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label fw-bold fs-8" for="flexCheckChecked">
+                      Direct flights only 
+                    </label>
+                  </div>
+            </div>
+            <div class="btn btn-dark fw-bold btn-lg inp-width">Search Flights</div>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="d-block d-xl-none rounded-2 bg-cp py-3 px-3">
+    <div class="d-flex align-items-center py-2">
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label fw-bold fs-7" for="flexRadioDefault1">
+              Return
+            </label>
+          </div>
+          <div class="form-check mx-2">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label fw-bold fs-7" for="flexRadioDefault2">
+              One way
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label fw-bold fs-7" for="flexRadioDefault2">
+              Multi-City
+            </label>
+          </div>
+
+    </div>
+    <div>
+        <label for="exampleDataList" class="form-label fw-bold fs-8 m-0">To</label>
+<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Airport or City">
+<datalist id="datalistOptions">
+<option value="San Francisco">
+<option value="New York">
+<option value="Seattle">
+<option value="Los Angeles">
+<option value="Chicago">
+</datalist>
+    </div>
+    <div class="form-check py-2">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label fw-bold fs-8" for="flexCheckChecked">
+          Add nearby Airports
+        </label>
+      </div>
+      <div>
+        <label for="exampleDataList" class="form-label fw-bold fs-8 m-0">From</label>
+<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Airport or City">
+<datalist id="datalistOptions">
+<option value="San Francisco">
+<option value="New York">
+<option value="Seattle">
+<option value="Los Angeles">
+<option value="Chicago">
+</datalist>
+    </div>
+    <div class="form-check py-2">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+        <label class="form-check-label fw-bold fs-8" for="flexCheckChecked">
+          Add nearby Airports
+        </label>
+      </div>
+      <div class="d-flex align-items-center justify-content-between">
+        <div>
+            <label for="" class="fw-bold fs-8 date-wid">Depart</label>
+            <input type="date" name="" id="" class="form-control inp-height ">
+         </div>
+         <div>
+             <label for="" class="fw-bold fs-8 date-wid">Return</label>
+             <input type="date" name="" id="" class="form-control inp-height ">
+          </div>
+      </div>
+      <div class="py-2">
+        <div>
+            <label for="" class="fw-bold fs-8">Cabin Class & Travellers</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+         </div>
+         <div class="form-check py-2">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label fw-bold fs-8" for="flexCheckChecked">
+              Direct flights only
+            </label>
+          </div>
+          <div class="py-3">
+            <div class="btn btn-dark fw-bold form-control">Search flights</div>
+          </div>
+      </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>
